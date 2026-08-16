@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 40px;
+    margin-left: 40px;
+}
+
+.left .title {
+    color: gold;
+    font-size: 50px;
+}
+
+.left .subtitle {
+    color: black;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+.right {
+    width: 50%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.right img {
+    width: 400px;
+    height: 300px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.group {
+    display: flex;
+    gap: 50px;
+}
+
+.group .groupa {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
